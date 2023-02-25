@@ -24,14 +24,13 @@ app.get("/", (req, res) => {
 });
 
 app.get("/info", async(req, res) => {
-	const {page} = req.query
-	let limit = 10
+	const {page,limit} = req.query
 	try{
 		const total = await InfoModel.find({}).count()
 		const data = await InfoModel.find({}).limit(limit).skip((page - 1) * limit)
 		res.send({data,total});
 	}catch(err){
-		res.send("err",err)
+		res.send({"message":err})
 	}
 });
 
