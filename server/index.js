@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 	res.send("hello world!");
 });
 
-app.get("/tree", async(req, res) => {
+app.get("/info", async(req, res) => {
 	try{
 		const data = await InfoModel.find({}).limit(10)
 		res.send(data);
