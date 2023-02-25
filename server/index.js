@@ -32,7 +32,8 @@ app.get("/info", async(req, res) => {
 	}
 });
 
-app.listen(PORT, async () => {
-	connect()
-	console.log(`Listening at http://localhost:${PORT}`);
-});
+connect().then(() => {
+    app.listen(PORT, () => {
+        console.log("listening for requests");
+    })
+})
