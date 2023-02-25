@@ -1,0 +1,101 @@
+  /* top box */
+  .titlebox {
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    color: white;
+    background-color: blue;
+  }
+
+  /* heading  */
+  .desc {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .name {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .quant {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+  }
+  .total {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+  }
+  .amount {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .profit {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  /* rows */
+
+  .rowinner {
+    margin-top: 20px;
+    font-size: 10px;
+    background-color: #2e3241;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  .rowcell {
+    font-size: 20px;
+    color: white;
+  }
+
+.table{
+  padding: 0px;
+  margin: 0px;
+}
+
+.heading{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+ 

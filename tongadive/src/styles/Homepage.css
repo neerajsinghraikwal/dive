@@ -1,0 +1,16 @@
+.home{
+    background-color: rgb(77, 183, 193);
+    background-image: url("../assets/myimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: rgb(143, 143, 165);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
